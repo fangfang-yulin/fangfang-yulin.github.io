@@ -334,7 +334,7 @@ function loadIssueData(appId, appKey, userName, userRepo, isValine) {
             }
         }
         // console.clear();
-        console.log("~~~~欢迎光临！记得有时间多来看看哦，https://removeif.github.io/ ~~~~")
+        console.log("~~~~欢迎光临！记得有时间多来看看哦，https://fanfanSky.github.io/ ~~~~")
     }
         ,
         500

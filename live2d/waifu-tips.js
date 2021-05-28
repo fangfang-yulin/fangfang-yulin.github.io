@@ -91,7 +91,8 @@ String.prototype.render = function(context) {
     });
 };
 
-var re = /x/;
+// var re = /x/;
+var re = 'w(ﾟДﾟ)w，你太棒了，要坚持下去哦，棒棒哒！';
 console.log(re);
 
 function empty(obj) {return typeof obj=="undefined"||obj==null||obj==""?true:false}
