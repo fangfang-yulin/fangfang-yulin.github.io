@@ -308,6 +308,7 @@ function loadIssueData(appId, appKey, userName, userRepo, isValine) {
 
         if (COMMENT_CACHE == '' || COMMENT_CACHE == null || new Date().getTime() - COMMENT["date"] > 60 * 1000) { // request per 10 minutes
             if (isValine) {
+                console.log('isValine=>',isValine);
                 renderValineComment(valine, ADMIN_NAME);
             } else {
                 loadCommentDataAndRender(authorizationToken);
